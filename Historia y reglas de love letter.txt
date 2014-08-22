@@ -1,0 +1,78 @@
+LOVE LETTER (Historia)
+
+2DA CARTA
+   La guardiana miro a Bartolemew Kaiss sobre la llanura por un momento y entonces fruncio el ceño.
+   -/*Disculpeme, Maestro Kaiss, pero la pricesa no esta recibiendo visitas en este momento. Ella esta,
+   por supuesto, muy desesperada por el arresto de su madre*/
+   
+   -/*desde luego,*/ agrego el joven compositor, asintiendo con la cabeza y mirando apropiadamente de 
+   un modo simpatico.
+   -/*Pero yo no solo estoy de visita, lo ves. Su altesa requirio mi instrucción. Hemos de practicar su canto.*/
+   
+   -/*La princesa ya tiene un maestro de vocalización,*/ respondió la mujer ronca, levantando una ceja. 
+
+
+3RA CARTA
+   -/*Yo estoy seguro que él la conoce, Odette*/ dijo una voz amable haciendo eco por el pasillo que 
+   conectava la residencia al palacio. Los dos se voltearon al ver a Susannah, una de las siervas 
+   de la pincesa Annette, caminando hacia ellos. 
+   -/*Lo que el buen compositor quire decir es que Annette solicitó el trabajo de él para su 
+   practica.*/ La joven mujer le sonrio a la guardiana y le guiño el ojo a Bartolemew en 
+   forma de complicidad.
+   
+   Desde su mochila, Bartolemew saco un tubo sellado. 
+   -/*Serias tan amable como para entregar estas hojas de musica, querida Susannah,*/ dijo él con una sonrisa y un
+   gentil gesto.
+   
+   
+4TA CARTA
+   La guardiana tomo el tubo del maestro, pero a medida que cambio de manos, algo con un poco de peso se movió dentro
+   del tubo. 
+   -/*¿Que es esto, entonces? pregunto la guardiana, sacudiendolo cerca de su oído. 
+   
+   Desde luego no es una pequeña estatua de un ave a las que la princesa es tan aficionada, pensó Bartolemew.
+   _/*la... pluma o tinta que utilizó para escribir música, en caso que ella o el maestro desearan hacer algún
+   cambio. yo siempre me permito algunos cambios con una neva composición.*/
+   
+   Susannah gentilmente tomo el cartucho de la suspicaz guardiana. 
+   -/*!Ay!, Odette, ¿lo detendra? Es solo algo de música,*/ agrego regañandole en broma. 
+   
+   
+5TA CARTA
+   -/*Yo veré de que mi señora los obtenga,*/ agrego susannah con una mano sobre el hombro de Bartolemew.
+   -/*Estoy seguro que ella estara anciosa por ver el contenido*/
+   
+                         OBJECT
+						 
+   A raíz del arresto de la Reyna Marianna por su alta traición, nadie tubo el corazón mas roto como su hija, la 
+   Princesa Annette.
+   
+   Los pretendientes de todo el Estado de la Ciudad de Tempest trataron aliviar el dolor de Annette por medio del
+   cortejo para traer un poco de alegria a su vida. 
+
+   
+6TA CARTA
+   Tu eres uno de esos pretendientes, tratando de hacer su carta de amor, a la Princesa. Desafortunadamente ella
+   se ha encerrado en el palacio, por lo que tu debes confiar en un intermediario para llevar tu mensaje. 
+   
+   Durante el juego, tu sostienes una carta secreta en la mano. Este es quien actualmente lleva su mensaje de amor
+   para la Princesa. 
+   
+   Cerciorate de que la persona mas cercana a la Princesa sostiene tu carta de amor al final del dia, !para que
+   le llegue primero!
+   
+   
+7MA CARTA
+                         COMPONENTS
+	Tu juego de Love Letter debe incluir lo siguiente. 
+	16 cartas de juego
+	4 cartas de referencia 
+	fichas de afección
+	
+	CARTAS DE JUEGO
+	El juego tiene 16 cartas. Cada carta es diferente y representa el nombre de alguien de la residencia real. 
+	
+	Cada carta tiene un valor en la esquina superior izquierda - mientras mas alto sea el número, mas cercana es
+	esa persona de la Princesa.
+	
+8VA CARTA:
