@@ -1,4 +1,4 @@
-LOVE LETTER (Historia)
+﻿LOVE LETTER (Historia)
 
 2DA CARTA
    La guardiana miro a Bartolemew Kaiss sobre la llanura por un momento y entonces fruncio el ceño.
@@ -76,3 +76,109 @@ LOVE LETTER (Historia)
 	esa persona de la Princesa.
 	
 8VA CARTA:
+   En la parte inferior de cada carta, hay una caja de texto que describe el efecto cuando la carta es lanzada
+   
+   CARTAS DE REFERENCIA:
+   Estas listan las diferentes cartas en el juego, así como sus efectos y cuántas copias se encuentran en la 
+   baraja. No se usan en el juego, pero se proporcionan como ayuda para recordar. 
+             
+   TOKEN DE AFECCIÓN:
+   Tambien son incluidos tokens rojos. Estos son utilizados para contabilizar el creciente afecto de la Princesa 
+   Annette para aquellos pretendientes cuyas cartas de amor lleguen a ella.
+
+   
+9NA CARTA:
+                            COMBATE (SETUP)
+   Baraja las 16 cartas del maso boca abajo. Remueve la primera carta de arriba del maso de juego sin mirarla. 
+   
+   Si solo estan jugando dos personas entonces toma tres cartas mas de la parte de arriba del maso y colocalas
+   a un lado, boca arriba. Las mismas no seran utilizadas durante esta ronda. 
+   
+   Cada jugador toma una carta del maso. Esta es la mano de cada jugador, y es guardada en secreto de los demás. 
+   Quien fue a la más reciente cita va primero, es decir quien haya ganado la ultima ves (Si continúa el empate,
+   el jugador más joven gana la eliminatoria).
+   
+   
+10MA CARTA:
+                     COMO JUGAR
+   LOVE LETTER se juega en una serie de rondas. Cada ronda representa un dia. Para el fin de cada ronda,
+   la carta de amor del jugador es entregada a la Princesa Annette, y ella la leé.
+   
+   Cuando ella lea suficientes cartas de amor del pretendiente, ella se enamorará y le otorgará al 
+   pretendiente el permiso de cortejarla. Ese jugador gana el corazón de la princesa y el juego. 
+   
+   EN CADA TURNO:
+   En tu turno, toma una carta de la parte de arriba del maso y la añades a tu mano. Entonces eliges
+   una de las dos cartas en tu mano, luego la lanzas boca arriba frente a ti. 
+ 
+ 
+11VA CARTA: 
+   Aplicas el efecto de la carta que lanzaste. Tu deberas aplicar su efecto, incluso si es malo para ti.
+   
+   Consulta la CARTA 15 de este manual para los efectos de cada tarjeta de juego. del mismo modo, si tu
+   tienes alguna pregunta acerca de los casos especiales con respecto a las tarjetas de juego, alli 
+   encontrarás la respuesta.
+   
+   Todas las cartas lanzadas permaneceran delante del jugador que las lanzo. Superpone las cartas de modo
+   que sea claro ver en que orden fueron lanzadas. Esto ayuda a los jugadores a desifrar que planes podrían
+   estar llevando a cabo los otros jugadores. 
+
+   
+12VA CARTA:
+    Una vez que termines de aplicar el efecto de la carta, el turno pasa al jugador de tu izquierda. 
+	
+	ELIMINADOS DE LA RONDA:
+	Si un jugador es eliminado de la ronda, éste jugador lanza las cartas de su mano boca arriba (ya
+	no aplican los efectos de las cartas) y no toma mas turnos, si no, hasta la siguiente ronda.
+	
+	HONESTIDAD:
+	Un jugador podria engañar cuando prefiere la compañia de la Guardia (Guard), o no desechar a la 
+	condesa (Countess) cuando ese jugador tenga al rey (King) o Princesa (Princess) en la mano. 
+	Nosotros sugerimos que tu no jueges con rufianes que engañan para divertirse.
+	
+	
+13VA CARTA:
+   FINAL DE LA RONDA:
+   Una ronda finaliza si la baraja esta vacia al final de un turno. La residencia cierra su entrada
+   en la noche, la person más cercana a la princesa entrega la carta de amor. Y la princesa Annette
+   Se retira a sus recamara para leerla. 
+   
+   Todos los juagadores que siguen en la ronda revelan sus manos. El jugador con la persona 
+   de mas alto rango, es decir, con el número de carta mas alto, gana la ronda. En caso de empate,
+   el jugador que descarto el valor total más alto de cartas, gana. 
+   
+   Una ronda también termina si todos los jugadores a escepción de uno, están fuera de la ronda, en
+   cuyo caso el jugador restante es el ganador. 
+   
+   
+14VA CARTA:
+   El ganador recibe un token de afección. baraja las 16 cartas juntas, y juega una nueva ronda siguiendo
+   todas las reglas del combate. 
+   
+   El ganador de la ronda anterior va primero, porque la princesa habla favorablemente de él o ella en
+   el desayuno. 
+   
+						GANAR
+   Un jugador gana el juego despues de ganar un número de tokens en función del número de jugadores: 
+   2 jugadores		7 tokens
+   3 jugadores 		5 tokens
+   4 jugadores 		4 tokens
+   
+							LAS PERSONAS
+   Los acontecimientos de este juego toma lugar entre los acontecimientos de Courtier y Dominare,
+   otros dos juegos en la línea de Tempest. Aqué se presentan breves perfiles de los participantes
+   en el juego. 
+   
+   8: PRINCESS ANNETTE
+   Obstaculizada solamente por la ingenuidad de la juventud, La Princesa Annette es elegante, 
+   simpática, y hermosa. Obviamente, tu quieres darle una carta de amor a la princesa.
+   Sin embargo, ella es conciente de los asuntos del corazón, y si se le confronta, lanzará tu
+   carta en el fuego y negara haberla visto. 
+   
+   Si tu descartas a la Princesa - No importa cómo o por qué - Ella habra tirado tu carta en el 
+   fuego. Entonces quedas fuera de la ronda. 
+   
+   7: COUNTESS WILHELMINA
+   Siempre en la busqueda o caza de un hombre guapo o chisme jugoso, la edad de Wilhelmina y la 
+   sangre noble la hacen una de las amigas de la Princesa Annette. Aunque ella tiene una gran influencia 
+   sobre la Princesa, ella desaparece cuando el Rey o la Princesa estan al rededor.
