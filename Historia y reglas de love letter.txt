@@ -182,3 +182,73 @@
    Siempre en la busqueda o caza de un hombre guapo o chisme jugoso, la edad de Wilhelmina y la 
    sangre noble la hacen una de las amigas de la Princesa Annette. Aunque ella tiene una gran influencia 
    sobre la Princesa, ella desaparece cuando el Rey o la Princesa estan al rededor.
+
+   A diferencia de otras cartas, que entran en acción al ser descartadas, el texto o el efecto de la 
+   Countess se aplica mientras está en tu mano. De hecho, ella no tienen efecto cuando tu la descartas. 
+   Si tu alguna vez tienes a la condesa (COUNTESS WILHELMINA) y, o bien el rey o a al principe en la mano.
+   Deberas descartar la carta de la condesa (COUNTESS). No tienes que revelar la otra carta en tu mano.
+   Por supuesto, también puedes descartar a la condesa (CONUNTESS), incluso si no tienes a un miembro de
+   la familia real en la mano. En forma de un juego mental para despistar.  
+   
+   6: KING ARNAUD IV  (Rey Arnaud IV)
+   El gobernante indiscutible de Tempest... por el momento. Porque debido a su papel en el arresto de la 
+   Reyna Mariannna, el no califica como cercano a la Princesa Annette como debería por ser su  padre.
+   El espera trabajar y encontrar su armonía de nuevo.
+   
+   Cuando tu descartas al Rey Arnaud IV, intercambias la carta en tu mano por la que tenga otro 
+   jugador de tu elección. Tu no puedes intercambiar con un jugador que esta fuera de la ronda, ni 
+   con nadie que este protegido por HANDMAID. Si todos los demas jugadores que permanecen en la ronda
+   estan protegidos por HANDMAID, esta carta no hace nada. 
+   
+   5: PRINCE ARNAUD  (Principe Arnaud)
+   Como un tábano social, el Principe Arnaud no estubo tan angunstiado por el arresto de su madre como
+   cabría suponer. Dado que muchas mujeres claman por su atención, el espera ayudar a su hermana a 
+   encontrar la misma felicidad banal, jugando la casamentera, es decir, organizando las relaciones
+   o el matrimonio de su hermana. 
+   
+   Cuando tu descartas PRINCE ARNAUD, eliges a un jugador que este en la ronda (incluido tu mismo).
+   Este jugador descarta su mano (sin aplicar los efectos) y toma una nueva carta. Si el maso esta 
+   vacio, este jugador toma la carta que fue removida al inicio de la ronda. 
+   
+   Si todos los demas jugadores estan protegidos por HANDMAID, you debes escojerte a ti mismo. 
+   
+   
+   4: HANDMAID SUSANNAH  (Doncella Susannah)
+   Pocos podrian confiar a la Doncella una carta de amor tan importante. Menos aún entender la astucia
+   de Susannah,o su experta capacidad para jugar a la Doncella tonta. Ese confidente y leal servidor
+   de la Reyna, escapo sin llamar la atención despues de que arrestaron a la misma; es un testimonio
+   de su mente inteligente.
+   
+   Cuando tu descartas a HANDMAID, tu eres inmune a los efectos de las cartas de los demas jugadores
+   hasta el inicio de tu siguiente turno. Si todos los jugadores, excepto el jugador que tiene el turno
+   estan protegidos por SUSANNAH, el jugador debe elegirse a sí mismo si es posible. 
+   
+   
+   3: BARON TALUS (Barón Talus)
+   El descendiente de una familia noble y estimada,ha sido durante mucho tiempo un aliado cercano de la 
+   familia real, El Barón Talus tiene una tranquila y apacible actitud que no tiene un hombre acostumbrado
+   a ser servido. Su sugerencias son tratadas como si vinieran del mismo rey. 
+   
+   Cuando descartes al Barón Talus, eliges a un jugador que permanezca en la ronda. Tu y este jugador en
+   forma secreta comparan las manos. El jugador con el menor rango es eliminado de la ronda. En caso de
+   empate, no pasa nada. Si todos los demas jugadores que permanecen en la ronda estan protegidos con 
+   HANDMAID, esta carta no tiene efecto. 
+   
+   
+   2: PRIEST TOMAS (Sacerdote Tomás, o Clerigo)
+   Abierto, honesto, y edificante, el padre Tomás siempre busca la oportunidad de hacer el bien. Con el
+   arresto de la reyna, el es visto a menudo en el palacio, actuando como confesor, consejero y amigo.
+   
+   Cuando tu descartas al PRIEST, tu puedes ver la mano del otro jugador. NO revela la mano de todos los
+   jugadores.
+   
+   
+   1: GUARD ODETTE (La Guardiana Odette)
+   Encargada de velar por la seguridad de la familia real, Odette sige sus ordenes con persistencia y 
+   deligencia... a pesar de que se dice de su asesor, que se ha ahogado mientras huía del arresto por 
+   complicidad en la traición de la reina.
+   
+   Cuando tu descartas a la Guardia, eliges a un jugador y nombras una carta (que no sea GUARD ODETTE).
+   Si este jugador tiene la carta, automaticamente queda eliminado de la ronda. Si todos los demas 
+   jugadores que permanecen en la ronda estan protegidos por HANDMAID, esta carta no tiene efecto.
+   
