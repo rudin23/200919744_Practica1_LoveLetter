@@ -1,8 +1,9 @@
 
 public class LoveLetter{
    public static void main(String args[]){
-      Menu menu = new Menu();
-	  int opcion = 0;
+      int opcion = 0;
+	  Menu menu = new Menu();
+	  Partida partida = new Partida();
 	  opcion = menu.menuInicio();
 	  
 	  switch (opcion){
@@ -10,7 +11,7 @@ public class LoveLetter{
 		    System.out.println("No eligio ninguna opción");
 			break;
 		 case 1:
-		    System.out.println("Eligio la opción 1");
+		    partida.juego();
 			break;
 		 case 2:
 		    System.out.println("Eligio la opción 2");
