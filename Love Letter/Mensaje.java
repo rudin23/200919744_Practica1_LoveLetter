@@ -1,10 +1,21 @@
 import java.util.Scanner;
 
 public class Mensaje{
-  public void inicio(){
-      System.out.println("\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n");
-      System.out.println("\t\t\t\t-= Bienvenido a Love Letter=-\n");
-	  System.out.println("(1) Jugar Una Partida");
+   
+   Scanner lectura = new Scanner(System.in);
+   
+  public void tituloBienvenida(){
+     System.out.println("\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n");
+	 System.out.println("\t\t\t\t-= Bienvenido a Love Letter=-\n");
+  }//Fin del método bienvenida
+  
+  public void tituloMenu(){
+     System.out.println("\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n");
+	 System.out.println("\t\t\t\t-= MENÚ PRINCIPAL =-\n");
+  }//Fin del método tituloMenu
+  
+  public void menuInicio(){
+      System.out.println("(1) Jugar Una Partida");
 	  System.out.println("(2) Seleccionar el Número de Tokens a Juagar");
 	  System.out.println("(3) Mostrar las Reglas del Juego");
 	  System.out.println("(4) Salir");
@@ -22,17 +33,28 @@ public class Mensaje{
 	  System.out.println("\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n");
    }//Fil del metodo juego1
    
-   public void bienvenida(String nomUsuario){
-      Scanner lectura = new Scanner(System.in);
+   public void bienvenidaUsuario(String nomUsuario){
       System.out.println("\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n");
 	  System.out.println("\t\t\t===================================");
 	  System.out.println("\t\t\t||                                ||");
-	  System.out.println("\t\t\t||      Bienvenido: " + nomUsuario + "        ||");
-	  System.out.println("\t\t\t||                                ||");
+	  System.out.printf("\t\t\t||      Bienvenido: %-14s||", nomUsuario);
+	  System.out.println("\n\t\t\t||                                ||");
 	  System.out.println("\t\t\t===================================");
 	  System.out.println("\t\t\tSus cartas se estan barajeando...");
 	  System.out.println("\n\n\n\n\n\n\n");
-	  System.out.print("Presino ENTER PARA CONTINUAR:_");
+	  System.out.print("Presino ENTER PARA INICIAR:_");
 	  lectura.nextLine();
    }//Fin del método bienvenida
+   
+   public void cartasRemovidas(String carta1, String carta2, String carta3, String nombre){
+       System.out.println("\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n");
+	   System.out.println("LAS CARTAS QUE SE REMUEVEN SON: ");
+	   System.out.println("\t" + carta1);
+	   System.out.println("\t" + carta2);
+	   System.out.println("\t" + carta3);
+	   System.out.println("\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n");
+	   System.out.println("\t\t\t\t\t" + nombre + " tu comienzas el juego...");
+	   System.out.println("\t\t\t\t\t\t\t Presiona ENTER_");
+	   lectura.nextLine();
+   }//Fin del método cartasRemovidas
 }//Fin de la clase 
