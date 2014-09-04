@@ -18,7 +18,16 @@ public class Menu{
 		    partida.juego();
 			break;
 		 case 2:
-		    System.out.println("Eligio la opción 2");
+			mensajes.mensajeTokens();
+			ingreso = lectura.nextInt();
+			partida.setTokens(ingreso);
+			System.out.printf("El numero de tokens es a jugar es: %d",
+			                      partida.getTokens());
+			String enter;
+			enter = lectura.nextLine();
+			enter = lectura.nextLine();
+			mensajes.tituloMenu();
+			menuInicio();
 			break;
 		 case 3:
 		    System.out.println("Eligio la opción 3");

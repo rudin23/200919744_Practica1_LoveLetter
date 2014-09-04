@@ -4,8 +4,7 @@ import java.util.Random;
 public class Partida{
       String nomUsuario = null;
 	  String nomRival = null;
-	  int tokensU = 0;
-	  int tokensR = 0;
+	  int tokens = 1;
 	  
    public void juego(){
       Scanner lectura = new Scanner(System.in);
@@ -73,6 +72,9 @@ public class Partida{
 		player2 = aux;//los valores de cada jugador 
 	  }//Fin del for para turnos
 	  
+	  System.out.println("El numero de tokens es: ");
+	  System.out.println(getTokens());
+	  
    }//Fin del método juego
    
    public void setNomUsuario(String nombre){
@@ -91,20 +93,13 @@ public class Partida{
       return nomRival;
    }//Fin del método obtener getNomRival
    
-   public void setTokensU(int numTokens){
-   tokensU = numTokens;
+   public void setTokens(int numTokens){
+   tokens = numTokens;
    }//Fin del método establecer setTokensU
    
-   public int getTokensU(){
-      return tokensU;
+   public int getTokens(){
+      return tokens;
    }//Fin del método obtener getTokensR
-   
-   public void setTokensR(int numTokens){
-      tokensR = numTokens;
-   }//Fin del método establecer setTokensR
-   
-   public int getTokensR(){
-     return tokensR; 
-   }//Fin del método obtener getTokensR
+
 	  
 }//Fin de la clase Partida

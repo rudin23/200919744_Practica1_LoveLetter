@@ -57,4 +57,14 @@ public class Mensaje{
 	   System.out.println("\t\t\t\t\t\t\t Presiona ENTER_");
 	   lectura.nextLine();
    }//Fin del método cartasRemovidas
+   
+   public void mensajeTokens(){
+      System.out.println("\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n");
+	  System.out.printf("%-15s --TOKENS--\n","");
+	  System.out.println("Elija el número de tokens que desea jugar");
+	  System.out.println("Es posible juagar hasta un máximo de 3 tokens");
+	  System.out.println("\n(1) Para 1 Token");
+	  System.out.println("(3) Para 3 Tokens");
+	  System.out.println("\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n");
+   }//Fin del método mensajeTokens
 }//Fin de la clase 
