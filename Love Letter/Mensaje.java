@@ -46,16 +46,23 @@ public class Mensaje{
 	  lectura.nextLine();
    }//Fin del método bienvenida
    
-   public void cartasRemovidas(String carta1, String carta2, String carta3, String nombre){
+   public void cartasRemovidas(String carta1, String carta2, String carta3, String nombre, 
+                                     int turno){
        System.out.println("\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n");
 	   System.out.println("LAS CARTAS QUE SE REMUEVEN SON: ");
 	   System.out.println("\t" + carta1);
 	   System.out.println("\t" + carta2);
 	   System.out.println("\t" + carta3);
 	   System.out.println("\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n");
-	   System.out.println("\t\t\t\t\t" + nombre + " tu comienzas el juego...");
-	   System.out.println("\t\t\t\t\t\t\t Presiona ENTER_");
-	   lectura.nextLine();
+	   if(turno == 1){
+	      System.out.println("\t\t\t\t\t" + nombre + " tu comienzas el juego...");
+	      System.out.println("\t\t\t\t\t\t\t Presiona ENTER_");
+	      lectura.nextLine();
+	   }else{
+	      System.out.println("\t\t\t\t\t" + "Tu rival " + nombre + " comienza el juego...");
+	      System.out.println("\t\t\t\t\t\t\t Presiona ENTER_");
+	      lectura.nextLine();
+	   }
    }//Fin del método cartasRemovidas
    
    public void mensajeTokens(){

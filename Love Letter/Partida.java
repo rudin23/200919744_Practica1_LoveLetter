@@ -4,76 +4,82 @@ import java.util.Random;
 public class Partida{
       String nomUsuario = null;
 	  String nomRival = null;
-	  int tokens = 1;
+	  int tokens = 1;//Es el número de tokens que tiene que ganar una persona para ganar
+	  int tokensU = 0;//Es el número de tokes inicial del usuario
+	  int tokensR = 0;//Es el número de tokes inicial de la Pc
 	  
    public void juego(){
       Scanner lectura = new Scanner(System.in);
+	  Random aleatorio = new Random();//crea un objeto de tipo random para, para los número aleatorios
 	  Mensaje mensaje = new Mensaje();
 	  Cartas carta = new Cartas();
+	  int decicion = 0; //Esta variable es la que decide que jugador va primero
+	  boolean aprobado; //variable para verificar que no se repiten numeros en el mazo
+	  int mazo[] = new int[16]; //Crea el mazo con 16 cartas. no esta lleno
 	  	  
+	  //Pide datos del Usuario y Pc y envia un mensaje de bienvenida
 	  System.out.println("\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n");
       System.out.println("Por Favor Ingrese su Nombre: ");
 	  nomUsuario = lectura.nextLine();
 	  System.out.println("\nIngrese el nombre de su Rival: ");
 	  nomRival = lectura.nextLine();
-		 
 	  mensaje.bienvenidaUsuario(nomUsuario);
 	  
-	  Random aleatorio = new Random();
-	  int mazo[] = new int[16]; //Crea un arreglo, le asigna la variable.  
-	  boolean aprobado;
+	     
 	  
-	  for(int i = 0; i < 16; i++){
-	     do{
-		    aprobado = true;
-			int a = 1 + aleatorio.nextInt(16);
-		    for(int j = i; j > -1; j--){
-		       if(mazo [j] == a)
-			   aprobado = false;
-		    }//Fin del for anidado		 
-		    if(aprobado){
-		       mazo [i] = a;
-            }//Fin del condicional if	
-         }while(!aprobado);//Fin del condicional Do-While
-	  }//Fin del 1mer ciclo for
-	  
-	  int decicion = 0; //Esta variable es la que decide que jugador va primero
-	  decicion = 1 + aleatorio.nextInt(2);// Signa un 1 o 2
-	  
-	     int player1 = 1; //esta es la variable para usuario
-		 int player2 = 2;// esta es la variable para PC
-		 int aux = 0;// esta variable sirve para inter cambiar a y b
+	  //do{
+	     //Rebuelve las 16 cartas asignando los números en forma aleatoria
+	     for(int i = 0; i < 16; i++){
+	        do{
+		       aprobado = true;
+			   int a = 1 + aleatorio.nextInt(16); //asigna un numero del 1 al 16 a la variale a
+		       for(int j = i; j > -1; j--){
+		          if(mazo [j] == a)//Verifica que el numero no este repetido
+			      aprobado = false;
+		       }//Fin del for anidado		 
+		       if(aprobado){
+		          mazo [i] = a; //Le asigna el numero aleatorio al vector
+               }//Fin del condicional if	
+            }while(!aprobado);//Fin del condicional Do-While
+	     }//Fin del 1mer ciclo for
 		 
-	  //Muestra las cartas removidas y el usuario que comienza. 
-	  if(decicion == 1){
-	     mensaje.cartasRemovidas(carta.nombreCarta(mazo[0]), carta.nombreCarta(mazo[1]),
-	                             carta.nombreCarta(mazo[2]), getNomUsuario());
-		 player1 = 1;
-		 player2 = 2;
-	  }else{
-	     mensaje.cartasRemovidas(carta.nombreCarta(mazo[0]), carta.nombreCarta(mazo[1]),
-	                             carta.nombreCarta(mazo[2]), getNomRival());
-		 player1 = 2;
-		 player2 = 1;
-	  }//Fin del condicional if else de elección
+		 decicion = 1 + aleatorio.nextInt(2);// Signa un 1 o 2 en forma aleatoria para decidir el turno
+	     int player1 = 1; //esta es la variable para usuario, por default el usuario va primero
+		 int player2 = 2;// esta es la variable para PC, por default la PC ve en segundo
+		 int aux = 0;// esta variable sirve para intercambiar el valor de player1 y player2
+		 
+	     //Muestra las cartas removidas y el usuario que comienza. 
+	     if(decicion == 1){
+	        mensaje.cartasRemovidas(carta.nombreCarta(mazo[0]), carta.nombreCarta(mazo[1]),
+	                             carta.nombreCarta(mazo[2]), getNomUsuario(), decicion);
+		    player1 = 1;
+		    player2 = 2;
+	     }else{
+	        mensaje.cartasRemovidas(carta.nombreCarta(mazo[0]), carta.nombreCarta(mazo[1]),
+	                             carta.nombreCarta(mazo[2]), getNomRival(), decicion);
+		    player1 = 2;
+		    player2 = 1;
+	     }//Fin del condicional if else de elección
 	  
-	  //For para los turnos
-	  for(int i = 3; i < 16; i++ ){
+	     //For para los turnos
+	     for(int i = 3; i < 16; i++ ){
 	    
-		if (player1 == 1){
-		   System.out.println("El Usuario tiene ");
-		   System.out.println(carta.nombreCarta(mazo[i]));
-		}else{
-		   System.out.println("El cpU tiene este turno");
-		   System.out.println(carta.nombreCarta(mazo[i]));
-		}//if para alternar a los juegadores
-		aux = player1;//variables para 
-		player1 = player2;//cambiar
-		player2 = aux;//los valores de cada jugador 
-	  }//Fin del for para turnos
+		   if (player1 == 1){
+		      System.out.println("El Usuario tiene ");
+		      System.out.println(carta.nombreCarta(mazo[i]));
+		   }else{
+		      System.out.println("El cpU tiene este turno");
+		      System.out.println(carta.nombreCarta(mazo[i]));
+		   }//if para alternar a los juegadores
+		   aux = player1;//variables para 
+		   player1 = player2;//cambiar
+		   player2 = aux;//los valores de cada jugador 
+	     }//Fin del for para turnos
 	  
-	  System.out.println("El numero de tokens es: ");
-	  System.out.println(getTokens());
+	     System.out.println("El numero de tokens es: ");
+	     System.out.println(getTokens());
+		 
+	  //}while((tokensU < tokens) && (tokensR < tokens));
 	  
    }//Fin del método juego
    
