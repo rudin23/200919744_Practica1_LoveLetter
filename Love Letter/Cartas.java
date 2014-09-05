@@ -1,5 +1,33 @@
+import java.util.Random;
+
 public class Cartas{
+   Partida partida = new Partida();
    
+   public void barajar(){
+       Random aleatorio = new Random();//crea un objeto de tipo random para, para los número aleatorios
+	   //Partida partida = new Partida();//Crea un objeto partida para cambiar el valor de las cartas
+	   boolean aprobado; //variable para verificar que no se repiten numeros en el mazo
+	   
+      //Rebuelve las 16 cartas asignando los números en forma aleatoria
+	     for(int i = 0; i < 16; i++){
+	        do{
+		       aprobado = true;
+			   int a = 1 + aleatorio.nextInt(16); //asigna un numero del 1 al 16 a la variale a
+		       for(int j = i; j > -1; j--){
+		          if(partida.getMazo(j) == a)//Verifica que el numero no este repetido
+			      aprobado = false;
+		       }//Fin del for anidado		 
+		       if(aprobado){
+		          partida.setMazo(i, a); //Le asigna el numero aleatorio al vector
+               }//Fin del condicional if	
+            }while(!aprobado);//Fin del condicional Do-While
+	     }//Fin del 1mer ciclo for
+		 
+   }//Fin del método barajar. que revuelve las cartas
+   
+   public int devolverMazo(int posicion){
+      return partida.getMazo(posicion);
+   }//Fin 
    //Metodo para darle nombre a las cartas
    public String nombreCarta(int indicador){
 	  switch(indicador){
